@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plan Perfecto</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/css/bootstrap-slider.css">
+  <script src="https://use.fontawesome.com/4ee7eade43.js"></script>
+
+</head>
+<body>
+<!--header-->
+	<nav class="navbar sticky-top navbar-light">
+        <a class="navbar-brand" href="#">
+			<img src="images/logo_@2x_pp.png" width="120" height="auto" alt="logo">
+		</a>
+        <a href="#">Home</a>
+        <a href="#planes">Planes</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#" class="button">Iniciar sesión</a>
+        <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+    </nav>
+<!--Header-->
+<!--slider-->
+    <div class="container-fluid" id="carousel">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://dummyimage.com/800x400/000/fff&text=x" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Moto g5s</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br> sed do eiusmod
+                            tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim veniam.</p>
+                            <a href="#" class="button">Conoce más</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="https://dummyimage.com/800x400/000/fff&text=x" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Moto g5s</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br> sed do eiusmod
+                            tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim veniam.</p>
+                            <a href="#" class="button">Conoce más</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="https://dummyimage.com/800x400/000/fff&text=x" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h2>Moto g5s</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br> sed do eiusmod
+                          tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim veniam.</p>
+                          <a href="#" class="button">Conoce más</a>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--slider-->
+<!--PLANES-->
+  <section>
+    <h1 id="titulo-planes">Planes</h1>
+    <div class="container-fluid" id="planes">
+        <div class="prev-planes">
+            <div class="planes" id="plan1">
+                <img src="images/plan-perfecto-04.png" class="img-plan">
+            </div>
+            <div class="planes" id="plan2">
+                <img src="images/plan-perfecto-04.png" class="img-plan">
+            </div>
+            <div class="planes" id="plan3">
+                <img src="images/plan-perfecto-04.png" class="img-plan">
+            </div>
+            <div class="planes" id="plan4">
+                <img src="images/plan-perfecto-04.png" class="img-plan">
+            </div>
+
+            <a href="#">Ver todos</a>
+        </div>
+        <div class="detalle-plan" id="divXCambiar">
+            <h2>Súper Plan 1 </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <a href="#" class="button conoceMas">Conoce más</a>
+        </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-fluid"> 
+            <h2>Busca el plan que se adapte a ti</h2>
+            <hr>
+       <div class="busqueda-plan row">
+            <div class="col-md-6">
+                <h3>Renta mensual</h3>
+                <b>$200</b> <input id="ex2" type="text" class="span2" value="" data-slider-min="200" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <b>$1000 +</b>
+            </div>
+            <div class="col-md-6">
+                <h2>Equipos</h2>
+                <div class="dropdown" id="marca">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Marca
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Marca 1</a>
+                    <a class="dropdown-item" href="#">Marca 2</a>
+                    <a class="dropdown-item" href="#">Marca 3</a>
+                  </div>
+                </div>
+                <div class="dropdown" id="modelo">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Modelo
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Modelo 1</a>
+                    <a class="dropdown-item" href="#">Modelo 2</a>
+                    <a class="dropdown-item" href="#">Modelo 3</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+<!--PLANES-->
+<!--BENEFICIOS-->
+    <section>
+        <div class="container-fluid" id="beneficios">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Beneficios</h1>
+                </div>
+                <div class="imagenes-beneficios">
+                    <div id="beneficio1">
+                        <img src="images/plan-perfecto-04.png" alt="Beneficio1" class="img-beneficio">
+                    </div>
+                    <div id="beneficio2">
+                        <img src="images/plan-perfecto-04.png" alt="Beneficio1" class="img-beneficio">
+                    </div>
+                    <div id="beneficio3">
+                        <img src="images/plan-perfecto-04.png" alt="Beneficio1" class="img-beneficio">
+                    </div>
+                    <div id="beneficio4">
+                        <img src="images/plan-perfecto-04.png" alt="Beneficio1" class="img-beneficio">
+                    </div>
+                    <div id="beneficio5">
+                        <img src="images/plan-perfecto-04.png" alt="Beneficio1" class="img-beneficio">
+                    </div>
+                    <div id="beneficio6">
+                        <img src="images/plan-perfecto-04.png" alt="Beneficio1" class="img-beneficio">
+                    </div>
+                    <div id="beneficio7">
+                        <img src="images/plan-perfecto-04.png" alt="Beneficio1" class="img-beneficio">
+                    </div>
+                    <div id="beneficio8">
+                        <img src="images/plan-perfecto-04.png" alt="Beneficio1" class="img-beneficio">
+                    </div>
+                    <div id="beneficio9">
+                        <img src="images/plan-perfecto-04.png" alt="Beneficio1" class="img-beneficio">
+                    </div>
+                    <div id="beneficio10">
+                        <img src="images/plan-perfecto-04.png" alt="Beneficio1" class="img-beneficio">
+                    </div>
+                    <div id="beneficio11">
+                        <img src="images/plan-perfecto-04.png" alt="Beneficio1" class="img-beneficio">
+                    </div>
+                    <div id="beneficio12">
+                        <img src="images/plan-perfecto-04.png" alt="Beneficio1" class="img-beneficio">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="#" class="button">Ver todos</a>
+            </div>
+        </div>
+    </section>
+<!--BENEFICIOS-->
+<!--FOOTER-->
+    <div class="container-fluid" id="footer">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/plan-perfecto-04.png" alt="Logo Telcel" id="logo-telcel-footer">
+            </div>
+            <div class="col-md-4">
+                <h3>Síguenos</h3>
+            </div>
+            <div class="col-md-4">
+                <h3>Contáctanos</h3>
+                <p>55 1231 4567</p>
+                <p>contacto@planperfecto.com</p>
+            </div>
+        </div>
+        
+    </div>
+<!--FOOTER-->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/bootstrap-slider.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>
