@@ -9,14 +9,23 @@ azul botones #29abe2
 	padding: 0;
 	margin:0;
 }
+hr{
+	border: 1px solid white; /*ARREGLAR*/
+}
 .sticky-top{
 	background: black;
 	position: relative;
 	height: 80px;
 }
+i.fa.fa-shoping-cart{
+	font-size: 30px; /*arreglar*/
+}
 i{
 	color: white;
 	margin-right: 30px;
+	padding: 20px;
+	background-color: green;
+	border-radius: 50%;
 }
 #carousel{
 	padding: 0;
@@ -53,16 +62,34 @@ i{
 .prev-planes{
 	width: 65%;
 	background-color: #4d4d4d;
-	display: flex;
-	flex-direction: column;
+}
+div#plan1.planes{
+	display: inline-grid;
+	float: left;
+}
+div#plan2.planes{
+	display: inline-grid;
+}
+div#plan3.planes{
+	display: inline-grid;
+	float: left;
+}
+div#plan4.planes{
+	display: inline-grid;
 }
 .planes{
 	border: 4px solid white;
 	border-radius: 10px;
 	width: 50%;
 }
+
 .detalle-plan{
 	width: 35%;
+}
+#busqueda-plan{
+	background-color: #666;
+	color: white;
+	text-align: center;
 }
 div#marca.dropdown{
 	width: 50%;
@@ -90,4 +117,27 @@ div#marca.dropdown{
 #logo-telcel-footer{
 	width: 100%;
 	border:1px solid white;
+}
+@media screen and (max-width: 500px){
+	div#carousel.container-fluid{
+		margin-top: 0;
+	}
+	.prev-planes{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	div#plan1.planes{
+		width: 100%;
+	}
+	div#plan2.planes{
+		width: 100%;
+	}
+	div#plan3.planes{
+		width: 100%;
+	}
+	div#plan4.planes{
+		width: 100%;
+	}
+
 }
