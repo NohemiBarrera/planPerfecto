@@ -6,11 +6,21 @@ azul botones #29abe2
 */
 *{
 	box-sizing: border-box;
-	padding: 0;
-	margin:0;
 }
 hr{
 	border: 1px solid white; /*ARREGLAR*/
+}
+a.link-blanco{
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+a.link-blanco:hover{
+	text-decoration: none;
+	color: #29abe2;
+}
+img.d-block.w-100{
+	margin-top: 60px;
 }
 .sticky-top{
 	background: black;
@@ -19,13 +29,24 @@ hr{
 }
 i.fa.fa-shoping-cart{
 	font-size: 30px; /*arreglar*/
+	background-color: #01bdd2;
 }
 i{
 	color: white;
 	margin-right: 30px;
 	padding: 20px;
-	background-color: green;
+	background-color: #01bdd2;
 	border-radius: 50%;
+}
+#iniciar-sesion{
+	border: 1px solid white;
+	padding: .5rem;
+	border-radius: 8px;
+}
+#iniciar-sesion:hover{
+	background-color: #29abe2;
+	color: white;
+	border: 1px solid #29abe2;
 }
 #carousel{
 	padding: 0;
@@ -39,16 +60,10 @@ i{
 	padding: 0;
 	margin:0;
 }
-.col_last {
-	margin-right: 0 !important;
-	clear: right;
-}
 #planes{
 	background-color: #333333;
 	color: white;
-	display: flex;
-	flex-direction: row;
-	margin-top: -8px;
+	margin-top: -2px;
 }
 #titulo-planes{
 	text-align: center;
@@ -58,33 +73,47 @@ i{
 .img-plan{
 	width: 100%;
 	height: auto;
-}
-.prev-planes{
-	width: 65%;
-	background-color: #4d4d4d;
-}
-div#plan1.planes{
-	display: inline-grid;
-	float: left;
-}
-div#plan2.planes{
-	display: inline-grid;
-}
-div#plan3.planes{
-	display: inline-grid;
-	float: left;
-}
-div#plan4.planes{
-	display: inline-grid;
-}
-.planes{
 	border: 4px solid white;
 	border-radius: 10px;
-	width: 50%;
 }
-
-.detalle-plan{
-	width: 35%;
+div.prev-planes{
+	padding: 3rem;
+}
+div#divXCambiar.detalle-plan{
+	padding: 4rem;
+	font-size: .8rem;
+}
+#ver-planes{
+	border: 2px solid white;
+	padding: .5rem;
+	margin-top: 2rem;
+	border-radius: 8px;
+}
+#ver-planes:hover{
+	border: 2px solid #29abe2;
+	color: white;
+	background-color: #29abe2;
+}
+#btn_ver-planes{
+	margin-top: 1.5rem;
+}
+#btn_ver-beneficios{
+	padding: 3rem;
+}
+.prev-planes{
+	background-color: #4d4d4d;
+}
+.planes{
+	padding: 10px;
+}
+a.button.conoceMas.link-blanco, a.button.ver-todos.link-blanco{
+	background-color: #29abe2;
+	padding: .5rem 4rem;
+	border-radius: 8px;
+}
+a.button.conoceMas.link-blanco:hover, a.button.ver-todos.link-blanco:hover{
+	color: white;
+	background-color: #29bae2;
 }
 #busqueda-plan{
 	background-color: #666;
@@ -96,48 +125,84 @@ div#marca.dropdown{
 	margin:0;
 	padding: 0;
 }
+div#modelo.dropdown{
+	width: 50%;
+	margin:0;
+	padding: 0;
+}
+#titulo-redes-sociales{
+	margin-bottom: 2rem;
+}
+i.fa.fa-twitter{
+	font-size: 20px;
+	background-color: #6ccef4;
+}
+i.fa.fa-facebook{
+background: #2193c8;
+background: -moz-linear-gradient(left, #2193c8 32%, #2195ca 35%, #239ed7 54%, #26b1f1 100%);
+background: -webkit-gradient(left top, right top, color-stop(32%, #2193c8), color-stop(35%, #2195ca), color-stop(54%, #239ed7), color-stop(100%, #26b1f1));
+background: -webkit-linear-gradient(left, #2193c8 32%, #2195ca 35%, #239ed7 54%, #26b1f1 100%);
+background: -o-linear-gradient(left, #2193c8 32%, #2195ca 35%, #239ed7 54%, #26b1f1 100%);
+background: -ms-linear-gradient(left, #2193c8 32%, #2195ca 35%, #239ed7 54%, #26b1f1 100%);
+background: linear-gradient(to right, #2193c8 32%, #2195ca 35%, #239ed7 54%, #26b1f1 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2193c8', endColorstr='#26b1f1', GradientType=1 );
+border-radius: 50%;
+width: 15%;
+text-align: center;
+font-size: 20px;
+}
+i.fa.fa-instagram{
+background: #f9d626;
+background: -moz-linear-gradient(45deg, #f9d626 4%, #f0812c 27%, #d7253e 44%, #a844a1 66%, #4845a2 88%, #4845a2 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(4%, #f9d626), color-stop(27%, #f0812c), color-stop(44%, #d7253e), color-stop(66%, #a844a1), color-stop(88%, #4845a2), color-stop(100%, #4845a2));
+background: -webkit-linear-gradient(45deg, #f9d626 4%, #f0812c 27%, #d7253e 44%, #a844a1 66%, #4845a2 88%, #4845a2 100%);
+background: -o-linear-gradient(45deg, #f9d626 4%, #f0812c 27%, #d7253e 44%, #a844a1 66%, #4845a2 88%, #4845a2 100%);
+background: -ms-linear-gradient(45deg, #f9d626 4%, #f0812c 27%, #d7253e 44%, #a844a1 66%, #4845a2 88%, #4845a2 100%);
+background: linear-gradient(45deg, #f9d626 4%, #f0812c 27%, #d7253e 44%, #a844a1 66%, #4845a2 88%, #4845a2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9d626', endColorstr='#4845a2', GradientType=1 );
+font-size: 20px;
+}
+i.fa.fa-youtube-play{
+	font-size: 20px;
+	background-color: #cc2227;
+}
 #beneficios{
 	background-color: black;
 	color: white;
 	text-align: center;
 }
 .img-beneficio{
-	width: 200px;
+	width: 100%;
 	height: auto;
-}
-.imagenes-beneficios{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
 }
 #footer{
 	background-color: #333;
 	color: white;
+	text-align: left;
 }
 #logo-telcel-footer{
 	width: 100%;
-	border:1px solid white;
 }
-@media screen and (max-width: 500px){
+#redes-sociales, #contacto{
+	margin-top: 2rem;
+}
+@media screen and (max-width: 768px){
 	div#carousel.container-fluid{
-		margin-top: 0;
+		margin-top: -60px;
 	}
-	.prev-planes{
-		width: 100%;
-		display: flex;
-		flex-direction: column;
+	.img-beneficio.img-oculta{
+		display: none;
 	}
-	div#plan1.planes{
-		width: 100%;
+	#footer{
+		text-align: center;
 	}
-	div#plan2.planes{
-		width: 100%;
+	.carousel-caption.d-none.d-md-block{
+	text-align: left;
+	margin-bottom: .2rem;
+	font-size: .5rem;
+	display: block !important;
 	}
-	div#plan3.planes{
-		width: 100%;
+	i.fa.fa-facebook{
+		width: 16%;
 	}
-	div#plan4.planes{
-		width: 100%;
-	}
-
 }
