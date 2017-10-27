@@ -1,5 +1,4 @@
 
-
 $(document).ready(function(){
 	var components = {
 		plan1: {
@@ -74,18 +73,29 @@ $(document).ready(function(){
 		      }
 		},
 };
-
 	function renderComponent(element, componentName) {
 	    var component = components[componentName];
 	    element.html(component.template);
 	    component.controller(element);
 	  }
-
 	$('div.planes').click(function(){
 		var aside = $('#divXCambiar');
 		renderComponent(aside, this.id);
 	});
 });
 
+$(document).ready(function(){
+	$("a").on('click', function(event){
+		if(this.hash !== ""){
+			event.preventDefault();
+			var hash = this.hash;
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top
+			}, 1500, function(){
+				window.location.hash=hash;
+			});
+		}
+	});
+});
 
 $("#ex2").slider({});
