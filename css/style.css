@@ -50,6 +50,10 @@ i{
 	color: white;
 	border: 1px solid #29abe2;
 }
+div.carousel-inner{
+	margin-left: -0.6px;
+	width: 101%;
+}
 #carousel{
 	padding: 0;
 	margin-top: -100px;
@@ -235,6 +239,9 @@ i.fa.fa-phone-square, i.fa.fa-envelope{
 	font-size: 16px;
 	background-color: white;
 	color: #333;
+}
+section{
+	height: 100vh;
 }
 @media screen and (max-width: 768px){
 	div#carousel.container-fluid{
